@@ -1,9 +1,11 @@
-import React from 'react';
-import './App.css';
+
+import "./App.css";
+import UserList from "./components/UserList";
 
 function App() {
-  return (  
+  return (
     <div className="App">
+      <UserList />
     </div>
   );
 }
